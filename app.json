@@ -1,0 +1,7 @@
+{
+  "expo": {
+    "name": "YourAppName",
+    "slug": "your-app-slug",
+    "entryPoint": "./App.tsx"
+  }
+} 

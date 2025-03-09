@@ -1,0 +1,10 @@
+node_modules
+Backend/captured_images/
+Backend/captured_barcodes/
+Backend/best_model.pth
+Backend/venv/
+Backend/venv/
+Backend/captured_images/
+Backend/best_model.pth
+Backend/captured_barcodes/
+node_modules/
