@@ -142,7 +142,7 @@ except Exception as e:
 
 # Load Gemini model for barcode scanning
 try:
-    GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyDB0WpEXLcc4-VgTKgp7_5pQgd-uv6iIJs")
+    GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "enter google-api-key")
     if GOOGLE_API_KEY:
         genai.configure(api_key=GOOGLE_API_KEY)
         gemini_model = genai.GenerativeModel("gemini-pro-vision")
@@ -297,7 +297,7 @@ class ImageRequest(BaseModel):
     imageBase64: str
 
 # Configure Gemini API - you might want to move this to an environment variable
-GEMINI_API_KEY = "AIzaSyAIykwqYxbWW0yaNkvp-XyO-KzwGPMCRpo"
+GEMINI_API_KEY = "enter your google-api-key"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Initialize the Gemini model
