@@ -4,7 +4,7 @@ import { getFirestore } from 'firebase/firestore';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyAGBOxpHlSLvv7td72CX9KfXQFJLi3AGiE",
+    apiKey: "enter your api-key",
     authDomain: "satvik-app-3776e.firebaseapp.com",
     projectId: "satvik-app-3776e",
     storageBucket: "satvik-app-3776e.firebasestorage.app",
